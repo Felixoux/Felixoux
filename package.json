@@ -1,0 +1,36 @@
+{
+    "name": "felixoux",
+    "displayName": "Felixoux_theme",
+    "description": "Theme dark Felixoux",
+    "version": "0.0.1",
+    "publisher": "Felixouxtheme",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Felixoux/Felixoux_theme"
+    },
+    "keywords": [
+        "Felixoux",
+        "theme",
+        "Felixoux theme",
+        "dark theme",
+        "Dark Felixoux theme", 
+        "felixoux",
+        "felixoux theme",
+        "felixoux dark theme"
+    ],
+    "engines": {
+        "vscode": "^1.55.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Felixoux_theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Felixoux_theme-color-theme.json"
+            }
+        ]
+    }
+}
